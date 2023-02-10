@@ -1,0 +1,17 @@
+/*Q1:
+//
+Implement the following function to take an iterable (essentially a list of things)
+and return the item in the list corresponding to the maximum value in list after 
+applying key to each item.
+*/
+
+function max(iterable, key) {
+    var maximum = iterable[0];
+    for (var item of iterable) {
+      var value = key(item);
+      if (value >= key(maximum)) {
+        maximum = item;
+      }
+    }
+    return maximum;
+  }
