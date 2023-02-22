@@ -1,0 +1,150 @@
+/* BEGIN SETUP (create sections so your content is organized and easily distinguishable) */
+html, body, p, h1,h2,h3{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+h1,h2,h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.sectionOne {
+    height: 100vh;
+    background: #7DC2AD;
+    /* box-sizing prevents overflow */
+    box-sizing: border-box;
+}
+.sectionTwo {
+    height: 100vh;
+    background: #7DC2AD;
+}
+.sectionThree {
+    height: 100vh;
+    background: #7DC2AD;
+}
+ /* END SETUP */
+
+
+
+
+/* ---> Navigation Bar <--- */
+  .myNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #E8A87C;
+  }
+
+  .navList {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navList li{
+    padding-left: 20px;
+  }
+  .name{
+    font-size: x-large;  
+  }
+  .name:hover{
+    color:#C38D9D;
+  }
+  .navList li a {
+    color: white;
+    font-size:large;
+    text-decoration: none;
+  }
+    
+  .myNav li a:active {
+      background-color: #41B8A5;
+  }
+  .myNav li a:hover {
+    color:#C38D9D;
+}
+  /* ---> End of Navigation Bar <--- */
+
+
+  /* ------> index.html css <------- */
+  img {
+    width: 800px;
+    border-radius: 50px;
+    max-width: 45%;
+  }
+
+  .sectionOne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-color: #C38D9D;
+  }
+
+  .sectionTwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-color: #3FB2A1;
+  }
+
+  .sectionThree{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-color: #85CDCA;
+  }
+  .column1, .column2, .column3{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #85CDCA;
+    height: 500px;
+    border: 20px solid #E7A87C;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+ .column1 .p,.column2 .p, .column3 .p{
+    text-align: center;
+    font-size: x-small;
+  }
+/* ------> contact.html css <------- */
+  #contact{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+  }
+  #contact a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+  }
+
+/* ------> work.html css <------- */
+
+.column4{
+  display: flex;
+}
+.derekImg{
+  width:400px;
+  height:400px;
+}
+
+.label1 {
+  text-decoration: none;
+  list-style: none;
+  font-size: xx-large;
+}
